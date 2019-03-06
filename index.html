@@ -14,6 +14,43 @@
             transform: translate(-50%, -50%);
             text-align: center;
         }
+
+        .siteFooterBar {
+            position: fixed;
+            bottom: 0;
+            /* padding-top: 10px; */
+            width: 100%;
+            box-shadow: 0px 0px 25px rgb(207, 207, 207);
+            height: 78px;
+            color: rgb(250, 245, 245);
+            background: rgb(88, 85, 85);
+        }
+
+        .content {
+            display: block;
+            padding: 5px;
+            margin: 0px auto;
+            text-align: right;
+            font: 25px Georgia, "Times New Roman", Times, serif;
+            font-size: 20px;
+        }
+
+        .foot {
+            position: right;
+            display:inline;
+            line-height: 70px;
+        
+            
+        }
+
+        .content img {
+            position: left;
+            height:70px;
+            width: 70px;
+            float:left;
+            
+        }
+
     </style>
 </head>
 
@@ -43,6 +80,16 @@
             }
         }
     </script>
+
+    <!-- footerbar -->
+    <div class="siteFooterBar">
+        <div class="content">
+            <img src="logo.png" >
+                <div class="foot">
+                    <p><a href="https://github.com/mystery-egg/mystery-egg.github.io" target="_blank">Github Repository</a></p>
+                </div>
+        </div>
+    </div>
 </body>
 
 </html>
