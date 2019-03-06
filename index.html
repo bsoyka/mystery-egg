@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Egg</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #main {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="result">Mystery Egg</h1>
+        <br><br><br>
+        <button class="btn btn-primary" onclick="run();">Randomize (spacebar)</button>
+    </div>
+
+    <script>
+        function run() {
+            var first_words = ["Magical", "Miniature", "Moon", "Mooing", "Mysterious", "Mystical", "Magnificent", "Mythical", "Mild", "Minuscule", "Microscopic", "Metallic", "Modern", "Miraculous"];
+            var second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk"];
+
+            var first_word = first_words[Math.floor(Math.random() * first_words.length)];
+            var second_word = second_words[Math.floor(Math.random() * second_words.length)];
+
+            var result = first_word + " " + second_word;
+
+            document.getElementById("result").innerHTML = result;
+        }
+
+        document.body.onkeyup = function(e) {
+            if (e.keyCode == 32) {
+                run();
+            }
+        }
+    </script>
+</body>
+
+</html>
