@@ -7,7 +7,6 @@
         .async-hide {
             opacity: 0 !important
         }
-
     </style>
     <script>
         (function(a, s, y, n, c, h, i, d, e) {
@@ -25,7 +24,6 @@
         })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
             'GTM-MZBJ3W6': true
         });
-
     </script>
     <!-- Google Tag Manager -->
     <script>
@@ -43,7 +41,6 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MZBJ3W6');
-
     </script>
     <!-- End Google Tag Manager -->
     <script src="https://browser.sentry-cdn.com/5.0.5/bundle.min.js" crossorigin="anonymous"></script>
@@ -51,7 +48,6 @@
         Sentry.init({
             dsn: 'https://1586b1c6740e48bdb7e20c9970e7ff68@sentry.io/1431867'
         });
-
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,6 +82,16 @@
             line-height: 40px;
         }
 
+        .siteFooterBar div {
+            display: block;
+            padding: 10px;
+            padding-top: 20px;
+            margin: 0px auto;
+            font-size: 20px;
+            position: left;
+            float: left;
+            line-height: 20px;
+        }
     </style>
 </head>
 
@@ -104,14 +110,22 @@
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7104944421115214" data-ad-slot="3284431593" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
-
         </script>
+    </div>
+    
+    <!-- footerbar -->
+    <div class="siteFooterBar">
+        <div>Total combinations: <span id="totalCombinations"></span></div>
+        <a href="mailto:mysteryegg@maskedmail.net" style="color: black;"><i class="fas fa-envelope"></i></a>
+        <a href="https://freewallet.org/id/bsoyka/btc" style="color: black;"><i class="fas fa-hand-holding-usd"></i></a>
+        <a href="https://github.com/mystery-egg/mystery-egg.github.io" style="color: black;"><i class="fab fa-github"></i></a>
     </div>
 
     <script>
+        var first_words = ["Magical", "Miniature", "Moon", "Mooing", "Mysterious", "Mystical", "Magnificent", "Mythical", "Mild", "Minuscule", "Microscopic", "Metallic", "Modern", "Miraculous", "Magenta", "Magnetic", "Majestic", "Meaningful", "Meaningless", "Mighty", "Motionless"];
+        var second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk", "Earthworm", "Echo", "Educator", "Elevator", "Envelope", "Eraser", "Expert", "Eyeball"];
+
         function run() {
-            var first_words = ["Magical", "Miniature", "Moon", "Mooing", "Mysterious", "Mystical", "Magnificent", "Mythical", "Mild", "Minuscule", "Microscopic", "Metallic", "Modern", "Miraculous", "Magenta", "Magnetic", "Majestic", "Meaningful", "Meaningless", "Mighty", "Motionless"];
-            var second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk", "Earthworm", "Echo", "Educator", "Elevator", "Envelope", "Eraser", "Expert", "Eyeball"];
 
             var first_word = first_words[Math.floor(Math.random() * first_words.length)];
             var second_word = second_words[Math.floor(Math.random() * second_words.length)];
@@ -126,15 +140,9 @@
                 run();
             }
         }
-
+        
+        document.getElementById("totalCombinations").innerHTML = first_words.length * second_words.length;
     </script>
-
-    <!-- footerbar -->
-    <div class="siteFooterBar">
-        <a href="mailto:mysteryegg@maskedmail.net" style="color: black;"><i class="fas fa-envelope"></i></a>
-        <a href="https://freewallet.org/id/bsoyka/btc" style="color: black;"><i class="fas fa-hand-holding-usd"></i></a>
-        <a href="https://github.com/mystery-egg/mystery-egg.github.io" style="color: black;"><i class="fab fa-github"></i></a>
-    </div>
 </body>
 
 </html>
