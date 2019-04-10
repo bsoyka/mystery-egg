@@ -92,6 +92,18 @@
             float: left;
             line-height: 10px;
         }
+        
+        @media (min-width:992px) {
+            .desktop-only {
+                display:block !important;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .desktop-only {
+                display:none !important;
+            }
+        }
     </style>
     <script type="application/ld+json">
     {
@@ -116,7 +128,7 @@
         <h1 id="result">Mystery Egg</h1>
         <h6 class="text-muted">A website to generate a meaning for the abbreviation ME, originally for use in online storytelling.</h6>
         <br><br><br>
-        <button class="btn btn-primary" onclick="run();">Randomize (spacebar)</button>
+        <button class="btn btn-primary" onclick="run();">Randomize <span class="desktop-only">(spacebar)</span></button>
     </div>
     
     <!-- footerbar -->
