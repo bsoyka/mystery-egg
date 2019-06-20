@@ -5,3 +5,6 @@ var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exc
 var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain"];
 var c_second_words = ["Cat", "Citizen", "Country"];
 var a_second_words = ["Apple", "Ant", "Aunt", "Action"];
+var a_first_words = ["Active", "Alpha"];
+var c_first_words = ["Crazy", "Colliding", "Captive"];
+var s_first_words = ["Silly", "Stupid", "Sour", "Sweet"];
