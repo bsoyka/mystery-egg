@@ -4,3 +4,4 @@ var s_second_words = ["Salad", "Sardine", "Salmon", "Sequel", "Silly", "Sushi", 
 var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exciting", "Excited"];
 var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain"];
 var c_second_words = ["Cat", "Citizen", "Country"];
+var a_second_words = ["Apple", "Ant", "Aunt", "Action"];
