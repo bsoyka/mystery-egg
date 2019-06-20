@@ -55,18 +55,18 @@
     <title>Mystery Egg</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Mystery Egg",
-            "item": "https://mystery-egg.github.io"
-        }]
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Mystery Egg",
+                "item": "https://mystery-egg.github.io"
+            }]
+        }
     </script>
 </head>
 
@@ -77,23 +77,36 @@
 
     <div id="main">
         <h1 id="result">Mystery Egg</h1>
-        <h6 class="text-muted">A website to generate a meaning for the abbreviation ME, originally for use in online storytelling.</h6>
-        <br><br><br>
+        <h6 class="text-muted">A website to generate a meaning for the abbreviation selected below, originally for use in online storytelling.</h6>
+        <br><br>
+        <div class="input-group mb-1">
+            <select class="form-control" id="first-select">
+                <option value="e_first_words">E</option>
+                <option value="m_first_words" selected>M</option>
+            </select>
+            <select class="form-control" id="second-select">
+                <option value="e_second_words" selected>E</option>
+                <option value="m_second_words">M</option>
+                <option value="s_second_words">S</option>
+            </select>
+        </div>
+        <br>
         <button class="btn btn-primary" onclick="run();">Randomize <span class="desktop-only" style="display: inline;">(spacebar)</span></button>
     </div>
-    
+
     <!-- footerbar -->
     <div class="siteFooterBar">
-        <div>Possibilities: <span id="totalCombinations"></span></div>
+        <div>Result: 1 in <span id="totalCombinations"></span></div>
         <a href="mailto:mysteryegg@maskedmail.net" style="color: black;"><i class="fas fa-envelope"></i></a>
         <a href="contribute" style="color: black;"><i class="fas fa-hands-helping"></i></a>
     </div>
 
+    <script src="vars.js"></script>
     <script>
-        var first_words = ["Mystery", "Magical", "Miniature", "Moon", "Mooing", "Mysterious", "Mystical", "Magnificent", "Mythical", "Mild", "Minuscule", "Microscopic", "Metallic", "Modern", "Miraculous", "Magenta", "Magnetic", "Majestic", "Meaningful", "Meaningless", "Mighty", "Motionless", "Malicious", "Massive", "Mushy", "Melted", "Melting", "Merry", "Moldy", "Moonlit", "Muscular", "Mingling", "Melancholy", "Masked", "Monstrous", "Master", "Mathematical", "Mediterranean", "Mindless", "Mechanical", "Mutant", "Mutated", "Mischievous", "Masculine", "Missing", "Mother", "Milky", "Moving", "Milkshake", "Marshmallow", "My", "Minced", "Maniacal", "Meddling", "Mopping", "Mongolian", "Mount", "Monstrous", "Montanan", "Mega", "Meaty", "Meme", "Motorized", "Moaning", "Minty", "Molten", "Mixed", "Magnetic", "Memorable"];
-        var second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk", "Earthworm", "Echo", "Educator", "Elevator", "Envelope", "Eraser", "Expert", "Eyeball", "Eclipse", "Employee", "Experiment", "Earwig", "Electrician", "Evergreen", "Emu", "Enchilada", "Elf", "Encouragement", "Editor", "Empire", "Entity", "Emperor", "Empress", "Experience", "Elmo", "Ember", "End", "Embryo", "Electronics", "Electrode", "Electron", "Energy", "Everest", "Enderman", "Edna", "Encounter", "Emotion", "Emoji", "Epilogue", "Enterprise", "Experience", "Entrance", "Exit", "Erosion", "Eye", "Ear", "Enemy", "Email", "Embrace", "Engine", "Engineer", "Elizabeth", "Education", "Elbow", "Expectation"];
-
         function run() {
+            
+            var first_words = window[document.getElementById("first-select").value];
+            var second_words = window[document.getElementById("second-select").value];
 
             var first_word = first_words[Math.floor(Math.random() * first_words.length)];
             var second_word = second_words[Math.floor(Math.random() * second_words.length)];
@@ -101,6 +114,8 @@
             var result = first_word + " " + second_word;
 
             document.getElementById("result").innerHTML = result;
+            
+            document.getElementById("totalCombinations").innerHTML = first_words.length * second_words.length;
         }
 
         document.body.onkeyup = function(e) {
@@ -108,11 +123,13 @@
                 run();
             }
         }
-        
-        document.getElementById("totalCombinations").innerHTML = first_words.length * second_words.length;
     </script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5caa19cbf1f316f0"></script>
-    <script type="text/javascript"> var infolinks_pid = 3177398; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+    <script type="text/javascript">
+        var infolinks_pid = 3177398;
+        var infolinks_wsid = 0;
+    </script>
+    <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 </body>
 
 </html>
