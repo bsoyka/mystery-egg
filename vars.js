@@ -25,3 +25,9 @@ var b_first_words = ["Blue", "Big", "Bad", "Black", "Bald", "Bare", "Basic", "Be
 var t_second_words = ["Taco", "Tim", "Tadpole", "Tide", "Table", "Tea", "Team", "Toad", "Toast", "Trace", "Tub", "Tuba", "Television"];
 
 var k_first_words = ["Kicking", "Kind", "Khaki", "Knitted", "Kaput", "Keen", "Kin", "Knowledgable", "Kaleidoscopic", "Key", "Known", "Kingly", "Kindhearted"];
+
+var t_first_words = ["Tiny", "Ticklish"];
+
+var d_first_words = ["Dark", "Daring", "Damp", "Dead", "Decent", "Dear", "Deep", "Deadly", "Deafening"];
+
+var d_second_words = ["Dog", "Dinner", "Dot"];
