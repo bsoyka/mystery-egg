@@ -8,7 +8,7 @@ var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exc
 
 var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain", "Magic", "Magician", "Macademia", "Macaroni", "Meadow", "Miami", "Microphone", "Moat", "Madness", "Malice", "Makeup", "Meat"];
 
-var c_second_words = ["Cat", "Citizen", "Country", "Can", "Cod", "Curry", "Cleveland", "Connor", "Captive", "Clock", "Cotton", "Cab", "Cabbage", "Cider", "Coach", "Cracker", "Crab", "Cub", "Caffeiene", "Camp", "Capital", "Captain", "Carving", "Chief", "Child", "Children", "Civilian", "Color", "Comic"];
+var c_second_words = ["Cat", "Citizen", "Country", "Can", "Cod", "Curry", "Cleveland", "Connor", "Captive", "Clock", "Cotton", "Cab", "Cabbage", "Cider", "Coach", "Cracker", "Crab", "Cub", "Caffeiene", "Camp", "Capital", "Captain", "Carving", "Chief", "Child", "Children", "Civilian", "Color", "Comic", "Crawfish"];
 
 var a_second_words = ["Apple", "Ant", "Aunt", "Action", "Animal", "Aardvark", "Abacus", "Academy", "Adam", "Aide", "Audio", "Award", "Awareness", "Axle", "Ankle", "Accommodation", "Acid", "Alarm", "Algebra", "Alcohol", "Alert", "Antique"];
 
@@ -23,3 +23,5 @@ var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfl
 var b_first_words = ["Blue", "Big", "Bad", "Black", "Bald", "Bare", "Basic", "Beige", "Best", "Biased", "Bitter", "Bleached", "Bleak", "Bland", "Blazing", "Bloodsucking", "Blunt", "Blurry"];
 
 var t_second_words = ["Taco", "Tim", "Tadpole", "Tide", "Table", "Tea", "Team", "Toad", "Toast", "Trace", "Tub", "Tuba", "Television"];
+
+var k_first_words = ["Kicking", "Kind", "Khaki", "Knitted", "Kaput", "Keen", "Kin", "Knowledgable", "Kaleidoscopic", "Key", "Known", "Kingly", "Kindhearted"];
