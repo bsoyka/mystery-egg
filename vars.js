@@ -2,4 +2,5 @@ var m_first_words = ["Mystery", "Magical", "Miniature", "Moon", "Mooing", "Myste
 var e_second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk", "Earthworm", "Echo", "Educator", "Elevator", "Envelope", "Eraser", "Expert", "Eyeball", "Eclipse", "Employee", "Employer", "Experiment", "Earwig", "Electrician", "Evergreen", "Emu", "Enchilada", "Elf", "Encouragement", "Editor", "Empire", "Entity", "Emperor", "Empress", "Experience", "Elmo", "Ember", "End", "Embryo", "Electronics", "Electrode", "Electron", "Energy", "Everest", "Enderman", "Edna", "Encounter", "Emotion", "Emoji", "Epilogue", "Enterprise", "Experience", "Entrance", "Exit", "Erosion", "Eye", "Ear", "Enemy", "Email", "Embrace", "Engine", "Engineer", "Elizabeth", "Education", "Elbow", "Expectation", "Eggo", "Excitement"];
 var s_second_words = ["Salad", "Sardine", "Salmon", "Sequel", "Silly", "Sushi", "Section", "Sasquatch", "Set"];
 var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exciting", "Excited"];
-var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain"]
+var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain"];
+var c_second_words = ["Cat", "Citizen", "Country"];
