@@ -16,7 +16,7 @@ var a_first_words = ["Active", "Alpha", "Antsy", "Academic", "Aquatic", "Audible
 
 var c_first_words = ["Crazy", "Colliding", "Captive", "Cuckoo", "Cotton", "Captain", "Caring", "Careless", "Cautious", "Casual", "Calm", "Candied", "Cheerful", "Chatty", "Comfortable", "Comforting", "Chewy", "Chewable", "Chestnut", "Chief", "Childish", "Civil", "Clueless", "Clumsy", "Cocky", "Colorful", "Comical"];
 
-var s_first_words = ["Silly", "Stupid", "Sour", "Sweet", "Smart", "Sane", "Shiny", "Soapy", "Soaked", "Soaring"];
+var s_first_words = ["Silly", "Sour", "Sweet", "Smart", "Sane", "Shiny", "Soapy", "Soaked", "Soaring"];
 
 var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner"];
 
