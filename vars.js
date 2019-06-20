@@ -8,3 +8,4 @@ var a_second_words = ["Apple", "Ant", "Aunt", "Action"];
 var a_first_words = ["Active", "Alpha"];
 var c_first_words = ["Crazy", "Colliding", "Captive"];
 var s_first_words = ["Silly", "Stupid", "Sour", "Sweet"];
+var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob"];
