@@ -18,7 +18,7 @@ var c_first_words = ["Crazy", "Colliding", "Captive", "Cuckoo", "Cotton", "Capta
 
 var s_first_words = ["Silly", "Sour", "Sweet", "Smart", "Sane", "Shiny", "Soapy", "Soaked", "Soaring", "Spitting", "Snazzy", "Spunky", "Shadowy"];
 
-var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner", "Bee", "Button", "Belly", "Bicycle", "Bag", "Blossom", "Bat", "Boston", "Bill", "Billy"];
+var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner", "Bee", "Button", "Belly", "Bicycle", "Bag", "Blossom", "Bat", "Boston", "Bill", "Billy", "Bug", "Bench", "Bunk", "Bed", "Building"];
 
 var b_first_words = ["Blue", "Big", "Bad", "Black", "Bald", "Bare", "Basic", "Beige", "Best", "Biased", "Bitter", "Bleached", "Bleak", "Bland", "Blazing", "Bloodsucking", "Blunt", "Blurry"];
 
@@ -32,10 +32,10 @@ var d_first_words = ["Dark", "Daring", "Damp", "Dead", "Decent", "Dear", "Deep",
 
 var d_second_words = ["Dog", "Dinner", "Dot", "Darkness", "Danger", "Ditch", "Dish", "Dowel"];
 
-var f_first_words = ["Funny", "Filling", "Filled", "Friendly"];
+var f_first_words = ["Funny", "Filling", "Filled", "Friendly", "Fluffy", "Furry"];
 
-var g_first_words = ["Giggling", "Ginormous", "Gargling"];
+var g_first_words = ["Giggling", "Ginormous", "Gargling", "Good"];
 
-var f_second_words = ["Fart", "Fig", "Friend"];
+var f_second_words = ["Fart", "Fig", "Friend", "Fluff", "Fur"];
 
-var g_second_words = ["Garbage", "Gift"];
+var g_second_words = ["Garbage", "Gift", "Game"];
