@@ -8,9 +8,9 @@ var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exc
 
 var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain", "Magic", "Magician", "Macademia", "Macaroni", "Meadow", "Miami", "Microphone", "Moat", "Madness", "Malice", "Makeup", "Meat"];
 
-var c_second_words = ["Cat", "Citizen", "Country", "Can", "Cod", "Curry", "Cleveland", "Connor", "Captive", "Clock", "Cotton", "Cab", "Cabbage", "Cider", "Coach", "Cracker", "Crab", "Cub", "Caffeiene", "Camp", "Capital", "Captain", "Carving", "Chief", "Child", "Children", "Civilian", "Color", "Comic", "Crawfish"];
+var c_second_words = ["Cat", "Citizen", "Country", "Can", "Cod", "Curry", "Cleveland", "Connor", "Captive", "Clock", "Cotton", "Cab", "Cabbage", "Cider", "Coach", "Cracker", "Crab", "Cub", "Caffeiene", "Camp", "Capital", "Captain", "Carving", "Chief", "Child", "Children", "Civilian", "Color", "Comic", "Crawfish", "Cable"];
 
-var a_second_words = ["Apple", "Ant", "Aunt", "Action", "Animal", "Aardvark", "Abacus", "Academy", "Adam", "Aide", "Audio", "Award", "Awareness", "Axle", "Ankle", "Accommodation", "Acid", "Alarm", "Algebra", "Alcohol", "Alert", "Antique"];
+var a_second_words = ["Apple", "Ant", "Aunt", "Action", "Animal", "Aardvark", "Abacus", "Academy", "Adam", "Aide", "Audio", "Award", "Awareness", "Axle", "Ankle", "Accommodation", "Acid", "Alarm", "Algebra", "Alcohol", "Alert", "Antique", "Advertisement"];
 
 var a_first_words = ["Active", "Alpha", "Antsy", "Academic", "Aquatic", "Audible", "Aware", "Abandoned", "Abusive", "Abnormal", "Accusing", "Accommodating", "Acidic", "Aerial", "Ablaze", "Airborne", "Alarmed", "Alarming", "Alphabetical", "Algebraic", "Alert", "Amused", "Angry", "Another", "Antique", "Appreciating", "Appreciated", "Appealing", "Agricultural", "Arctic", "Attractive", "Automated", "Automatic", "Awake"];
 
@@ -39,3 +39,5 @@ var g_first_words = ["Giggling", "Ginormous", "Gargling", "Good"];
 var f_second_words = ["Fart", "Fig", "Friend", "Fluff", "Fur"];
 
 var g_second_words = ["Garbage", "Gift", "Game"];
+
+var p_second_words = ["Pickle", "Popcorn", "Pad", "Pill"];
