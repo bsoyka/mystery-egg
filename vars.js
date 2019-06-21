@@ -18,7 +18,7 @@ var c_first_words = ["Crazy", "Colliding", "Captive", "Cuckoo", "Cotton", "Capta
 
 var s_first_words = ["Silly", "Sour", "Sweet", "Smart", "Sane", "Shiny", "Soapy", "Soaked", "Soaring", "Spitting", "Snazzy", "Spunky", "Shadowy"];
 
-var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner", "Bee", "Button", "Belly", "Bicycle", "Bag", "Blossom", "Bat", "Boston", "Bill", "Billy", "Bug", "Bench", "Bunk", "Bed", "Building"];
+var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner", "Bee", "Button", "Belly", "Bicycle", "Bag", "Blossom", "Bat", "Boston", "Bill", "Billy", "Bug", "Bench", "Bunk", "Bed", "Building", "Blanket", "Blemish"];
 
 var b_first_words = ["Blue", "Big", "Bad", "Black", "Bald", "Bare", "Basic", "Beige", "Best", "Biased", "Bitter", "Bleached", "Bleak", "Bland", "Blazing", "Bloodsucking", "Blunt", "Blurry"];
 
