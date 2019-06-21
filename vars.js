@@ -34,7 +34,7 @@ var d_second_words = ["Dog", "Dinner", "Dot", "Darkness", "Danger", "Ditch", "Di
 
 var f_first_words = ["Funny", "Filling", "Filled", "Friendly", "Fluffy", "Furry"];
 
-var g_first_words = ["Giggling", "Ginormous", "Gargling", "Good"];
+var g_first_words = ["Giggling", "Ginormous", "Gargling", "Good", "Glamourous"];
 
 var f_second_words = ["Fart", "Fig", "Friend", "Fluff", "Fur"];
 
