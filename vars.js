@@ -41,3 +41,7 @@ var f_second_words = ["Fart", "Fig", "Friend", "Fluff", "Fur"];
 var g_second_words = ["Garbage", "Gift", "Game"];
 
 var p_second_words = ["Pickle", "Popcorn", "Pad", "Pill"];
+
+var h_first_words = ["Healthy", "Happy", "High", "Heavenly", "Hysterical", "Hip", "Hybrid"];
+
+var h_second_words = ["Hip", "Hybrid", "Home", "Hill", "Helicopter", "Hippopotamus", "Hurricane"];
