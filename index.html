@@ -49,7 +49,17 @@
             dsn: 'https://1586b1c6740e48bdb7e20c9970e7ff68@sentry.io/1431867'
         });
     </script>
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"ae3c62b943dd31404e11fb704","lid":"8f0b39bab2","uniqueMethods":true}) })</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us3.list-manage.com",
+                "uuid": "ae3c62b943dd31404e11fb704",
+                "lid": "8f0b39bab2",
+                "uniqueMethods": true
+            })
+        })
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A generator to find the meaning of the abbreviation ME.">
@@ -70,10 +80,19 @@
         }
     </script>
     <script>
-        (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
-            a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
-            f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
-            tp('register', 'L4PhKG6NhcPUUF5D');
+        (function(w, d, s, r, n) {
+            w.TrustpilotObject = n;
+            w[n] = w[n] || function() {
+                (w[n].q = w[n].q || []).push(arguments)
+            };
+            a = d.createElement(s);
+            a.async = 1;
+            a.src = r;
+            a.type = 'text/java' + s;
+            f = d.getElementsByTagName(s)[0];
+            f.parentNode.insertBefore(a, f)
+        })(window, document, 'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+        tp('register', 'L4PhKG6NhcPUUF5D');
     </script>
 </head>
 
@@ -136,7 +155,7 @@
     <script src="vars.js"></script>
     <script>
         function run() {
-            
+
             var first_words = window[document.getElementById("first-select").value];
             var second_words = window[document.getElementById("second-select").value];
 
@@ -146,7 +165,7 @@
             var result = first_word + " " + second_word;
 
             document.getElementById("result").innerHTML = result;
-            
+
             document.getElementById("totalCombinations").innerHTML = first_words.length * second_words.length;
         }
 
@@ -162,12 +181,26 @@
         var infolinks_wsid = 0;
     </script>
     <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/configcat-js@latest/dist/configcat.min.js"></script>
     <script type="text/javascript">
-        var configCatClient = configcat.createClientWithAutoPoll('mSXXCEjEHgizVGtkv2xg7g/-EbTKxJ5J0qAUglH-UUicg', { pollIntervalSeconds: 2 }); 
+        var configCatClient = configcat.createClientWithAutoPoll('mSXXCEjEHgizVGtkv2xg7g/-EbTKxJ5J0qAUglH-UUicg', {
+            pollIntervalSeconds: 2,
+            configChanged: function() {
+                configCatClient.getValue("generationEnabled", true, function(value) {
+                    if (value == false) {
+                        document.getElementById("main").style = "display: none;";
+                        document.getElementById("main-killed").style = "display: block;";
+                    } else {
+                        document.getElementById("main").style = "display: block;";
+                        document.getElementById("main-killed").style = "display: none;";
+                    }
+                });
+            }
+        });
         configCatClient.getValue("generationEnabled", true, function(value) {
-            if(value==false) {
+            if (value == false) {
                 document.getElementById("main").style = "display: none;";
                 document.getElementById("main-killed").style = "display: block;";
             } else {
