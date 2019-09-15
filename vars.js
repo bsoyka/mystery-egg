@@ -1,47 +1,47 @@
-var m_first_words = ["Mystery", "Magical", "Miniature", "Moon", "Mooing", "Mysterious", "Mystical", "Magnificent", "Mythical", "Mild", "Minuscule", "Microscopic", "Metallic", "Modern", "Miraculous", "Magenta", "Magnetic", "Majestic", "Meaningful", "Meaningless", "Mighty", "Motionless", "Malicious", "Massive", "Mushy", "Melted", "Melting", "Merry", "Moldy", "Moonlit", "Muscular", "Mingling", "Melancholy", "Masked", "Monstrous", "Master", "Mathematical", "Mediterranean", "Mindless", "Mechanical", "Mutant", "Mutated", "Mischievous", "Masculine", "Missing", "Mother", "Milky", "Moving", "Marshmallow", "My", "Minced", "Maniacal", "Meddling", "Mopping", "Mongolian", "Mount", "Monstrous", "Montanan", "Mega", "Meaty", "Meme", "Motorized", "Moaning", "Minty", "Molten", "Mixed", "Magnetic", "Memorable"];
+var a_first_words = ["Abandoned", "Ablaze", "Abnormal", "Abusive", "Academic", "Accommodating", "Accusing", "Acidic", "Active", "Aerial", "Agricultural", "Airborne", "Alarmed", "Alarming", "Alert", "Algebraic", "Alpha", "Alphabetical", "Amused", "Angry", "Another", "Antique", "Antsy", "Appealing", "Appreciated", "Appreciating", "Aquatic", "Arctic", "Attractive", "Audible", "Automated", "Automatic", "Awake", "Aware"];
 
-var e_second_words = ["Egg", "Eggplant", "Eagle", "Earth", "Eel", "Electricity", "Elephant", "Elk", "Earthworm", "Echo", "Educator", "Elevator", "Envelope", "Eraser", "Expert", "Eyeball", "Eclipse", "Employee", "Employer", "Experiment", "Earwig", "Electrician", "Evergreen", "Emu", "Enchilada", "Elf", "Encouragement", "Editor", "Empire", "Entity", "Emperor", "Empress", "Experience", "Elmo", "Ember", "End", "Embryo", "Electronics", "Electrode", "Electron", "Energy", "Everest", "Enderman", "Edna", "Encounter", "Emotion", "Emoji", "Epilogue", "Enterprise", "Experience", "Entrance", "Exit", "Erosion", "Eye", "Ear", "Enemy", "Email", "Embrace", "Engine", "Engineer", "Elizabeth", "Education", "Elbow", "Expectation", "Eggo", "Excitement", "Elastic", "Empathy"];
+var a_second_words = ["Aardvark", "Abacus", "Academy", "Accommodation", "Acid", "Action", "Adam", "Advertisement", "Aide", "Alarm", "Alcohol", "Alert", "Algebra", "Animal", "Ankle", "Ant", "Antique", "Apple", "Audio", "Aunt", "Award", "Awareness", "Axle"];
 
-var s_second_words = ["Salad", "Sardine", "Salmon", "Sequel", "Silly", "Sushi", "Section", "Sasquatch", "Set", "Seattle", "Sand", "Silk", "Sourdough", "Salami", "Scab", "Sea", "Shack", "Shackle", "Sunflower", "Shadow", "Shade", "Slab", "Sign", "Sledgehammer", "Snack", "Snail", "Snake", "Soap", "Spa", "Squad", "Squadron", "Space", "Spade", "Submarine", "Swab", "Sputnik"];
+var b_first_words = ["Bad", "Bald", "Bare", "Basic", "Beige", "Best", "Biased", "Big", "Bitter", "Black", "Bland", "Blazing", "Bleached", "Bleak", "Bloodsucking", "Blue", "Blunt", "Blurry"]
 
-var e_first_words = ["Entitled", "Electric", "Energetic", "Empty", "Extra", "Exciting", "Excited", "Early", "Eastern", "Easy", "Ecological", "Echoing", "Edgy", "Elastic", "Electrical", "Elegant", "Empathetic", "Epic", "Ethical", "Exaggerated", "Exact", "Exotic", "Explicit", "Extinct", "Extensive", "Extended"];
+var b_second_words = ["Baboon", "Bag", "Ball", "Bamboo", "Banana", "Banner", "Bat", "Bathtub", "Beach", "Beacon", "Bed", "Bee", "Belly", "Belt", "Bench", "Berry", "Bib", "Bible", "Bicycle", "Bill", "Billy", "Birch", "Blanket", "Blemish", "Blossom", "Blueberry", "Board", "Bob", "Booger", "Book", "Boston", "Bowl", "Bracelet", "Bubble", "Bug", "Building", "Bunk", "Butterfly", "Button"]
 
-var m_second_words = ["Mother", "Meatball", "Mom", "Milk", "Magnet", "Mystery", "Moon", "Mold", "Marshmallow", "Mop", "Milkshake", "Mountain", "Magic", "Magician", "Macademia", "Macaroni", "Meadow", "Miami", "Microphone", "Moat", "Madness", "Malice", "Makeup", "Meat"];
+var c_first_words = ["Calm", "Candied", "Captain", "Captive", "Careless", "Caring", "Casual", "Cautious", "Chatty", "Cheerful", "Cheesy", "Chestnut", "Chewable", "Chewy", "Chief", "Childish", "Civil", "Clueless", "Clumsy", "Cocky", "Colliding", "Colorful", "Comfortable", "Comforting", "Comical", "Cotton", "Crazy", "Cuckoo"];
 
-var c_second_words = ["Cat", "Citizen", "Country", "Can", "Cod", "Curry", "Cleveland", "Connor", "Captive", "Clock", "Cotton", "Cab", "Cabbage", "Cider", "Coach", "Cracker", "Crab", "Cub", "Caffeiene", "Camp", "Capital", "Captain", "Carving", "Chief", "Child", "Children", "Civilian", "Color", "Comic", "Crawfish", "Cable"];
+var c_second_words = ["Cab", "Cabbage", "Cable", "Caffeiene", "Camp", "Can", "Capital", "Captain", "Captive", "Carving", "Cat", "Chief", "Child", "Children", "Cider", "Citizen", "Civilian", "Cleveland", "Clock", "Coach", "Cod", "Color", "Comic", "Connor", "Cotton", "Country", "Crab", "Cracker", "Crawfish", "Cub", "Curry"];
 
-var a_second_words = ["Apple", "Ant", "Aunt", "Action", "Animal", "Aardvark", "Abacus", "Academy", "Adam", "Aide", "Audio", "Award", "Awareness", "Axle", "Ankle", "Accommodation", "Acid", "Alarm", "Algebra", "Alcohol", "Alert", "Antique", "Advertisement"];
+var d_first_words = ["Damp", "Dangerous", "Daring", "Dark", "Dead", "Deadly", "Deafening", "Dear", "Decent", "Deep"];
 
-var a_first_words = ["Active", "Alpha", "Antsy", "Academic", "Aquatic", "Audible", "Aware", "Abandoned", "Abusive", "Abnormal", "Accusing", "Accommodating", "Acidic", "Aerial", "Ablaze", "Airborne", "Alarmed", "Alarming", "Alphabetical", "Algebraic", "Alert", "Amused", "Angry", "Another", "Antique", "Appreciating", "Appreciated", "Appealing", "Agricultural", "Arctic", "Attractive", "Automated", "Automatic", "Awake"];
+var d_second_words = ["Danger", "Darkness", "Dinner", "Dish", "Ditch", "Dog", "Dot", "Dowel"];
 
-var c_first_words = ["Crazy", "Colliding", "Captive", "Cuckoo", "Cotton", "Captain", "Caring", "Careless", "Cautious", "Casual", "Calm", "Candied", "Cheerful", "Chatty", "Comfortable", "Comforting", "Chewy", "Chewable", "Chestnut", "Chief", "Childish", "Civil", "Clueless", "Clumsy", "Cocky", "Colorful", "Comical", "Cheesy"];
+var e_first_words = ["Early", "Eastern", "Easy", "Echoing", "Ecological", "Edgy", "Elastic", "Electric", "Electrical", "Elegant", "Empathetic", "Empty", "Energetic", "Entitled", "Epic", "Ethical", "Exact", "Exaggerated", "Excited", "Exciting", "Exotic", "Explicit", "Extended", "Extensive", "Extinct", "Extra"];
 
-var s_first_words = ["Silly", "Sour", "Sweet", "Smart", "Sane", "Shiny", "Soapy", "Soaked", "Soaring", "Spitting", "Snazzy", "Spunky", "Shadowy"];
+var e_second_words = ["Eagle", "Ear", "Earth", "Earthworm", "Earwig", "Echo", "Eclipse", "Editor", "Edna", "Education", "Educator", "Eel", "Egg", "Eggo", "Eggplant", "Elastic", "Elbow", "Electrician", "Electricity", "Electrode", "Electron", "Electronics", "Elephant", "Elevator", "Elf", "Elizabeth", "Elk", "Elmo", "Email", "Ember", "Embrace", "Embryo", "Emoji", "Emotion", "Empathy", "Emperor", "Empire", "Employee", "Employer", "Empress", "Emu", "Enchilada", "Encounter", "Encouragement", "End", "Enderman", "Enemy", "Energy", "Engine", "Engineer", "Enterprise", "Entity", "Entrance", "Envelope", "Epilogue", "Eraser", "Erosion", "Everest", "Evergreen", "Excitement", "Exit", "Expectation", "Experience", "Experience", "Experiment", "Expert", "Eye", "Eyeball"];
 
-var b_second_words = ["Banana", "Booger", "Blueberry", "Berry", "Bob", "Butterfly", "Bowl", "Ball", "Bubble", "Beach", "Baboon", "Bamboo", "Beacon", "Bib", "Bible", "Birch", "Belt", "Board", "Bracelet", "Bathtub", "Book", "Banner", "Bee", "Button", "Belly", "Bicycle", "Bag", "Blossom", "Bat", "Boston", "Bill", "Billy", "Bug", "Bench", "Bunk", "Bed", "Building", "Blanket", "Blemish"];
+var f_first_words = ["Filled", "Filling", "Fluffy", "Friendly", "Funny", "Furry"];
 
-var b_first_words = ["Blue", "Big", "Bad", "Black", "Bald", "Bare", "Basic", "Beige", "Best", "Biased", "Bitter", "Bleached", "Bleak", "Bland", "Blazing", "Bloodsucking", "Blunt", "Blurry"];
+var f_second_words = ["Fart", "Fig", "Fluff", "Friend", "Fur"];
 
-var t_second_words = ["Taco", "Tim", "Tadpole", "Tide", "Table", "Tea", "Team", "Toad", "Toast", "Trace", "Tub", "Tuba", "Television", "Towel"];
+var g_first_words = ["Gargling", "Giggling", "Ginormous", "Glamourous", "Good"];
 
-var k_first_words = ["Kicking", "Kind", "Khaki", "Knitted", "Kaput", "Keen", "Kin", "Knowledgable", "Kaleidoscopic", "Key", "Known", "Kingly", "Kindhearted"];
+var g_second_words = ["Game", "Garbage", "Gift"];
 
-var t_first_words = ["Tiny", "Ticklish", "Tapping", "Touchable", "Tackling"];
+var h_first_words = ["Happy", "Healthy", "Heavenly", "High", "Hip", "Hybrid", "Hysterical"];
 
-var d_first_words = ["Dark", "Daring", "Damp", "Dead", "Decent", "Dear", "Deep", "Deadly", "Deafening", "Dangerous"];
+var h_second_words = ["Helicopter", "Hill", "Hip", "Hippopotamus", "Home", "Hurricane", "Hybrid"];
 
-var d_second_words = ["Dog", "Dinner", "Dot", "Darkness", "Danger", "Ditch", "Dish", "Dowel"];
+var k_first_words = ["Kaleidoscopic", "Kaput", "Keen", "Key", "Khaki", "Kicking", "Kin", "Kind", "Kindhearted", "Kingly", "Knitted", "Knowledgable", "Known"];
 
-var f_first_words = ["Funny", "Filling", "Filled", "Friendly", "Fluffy", "Furry"];
+var m_first_words = ["Magenta", "Magical", "Magnetic", "Magnetic", "Magnificent", "Majestic", "Malicious", "Maniacal", "Marshmallow", "Masculine", "Masked", "Massive", "Master", "Mathematical", "Meaningful", "Meaningless", "Meaty", "Mechanical", "Meddling", "Mediterranean", "Mega", "Melancholy", "Melted", "Melting", "Meme", "Memorable", "Merry", "Metallic", "Microscopic", "Mighty", "Mild", "Milky", "Minced", "Mindless", "Mingling", "Miniature", "Minty", "Minuscule", "Miraculous", "Mischievous", "Missing", "Mixed", "Moaning", "Modern", "Moldy", "Molten", "Mongolian", "Monstrous", "Monstrous", "Montanan", "Mooing", "Moon", "Moonlit", "Mopping", "Mother", "Motionless", "Motorized", "Mount", "Moving", "Muscular", "Mushy", "Mutant", "Mutated", "My", "Mysterious", "Mystery", "Mystical", "Mythical"];
 
-var g_first_words = ["Giggling", "Ginormous", "Gargling", "Good", "Glamourous"];
+var m_second_words = ["Macademia", "Macaroni", "Madness", "Magic", "Magician", "Magnet", "Makeup", "Malice", "Marshmallow", "Meadow", "Meat", "Meatball", "Miami", "Microphone", "Milk", "Milkshake", "Moat", "Mold", "Mom", "Moon", "Mop", "Mother", "Mountain", "Mystery"];
 
-var f_second_words = ["Fart", "Fig", "Friend", "Fluff", "Fur"];
+var p_second_words = ["Pad", "Pickle", "Pill", "Popcorn"];
 
-var g_second_words = ["Garbage", "Gift", "Game"];
+var s_first_words = ["Sane", "Shadowy", "Shiny", "Silly", "Smart", "Snazzy", "Soaked", "Soapy", "Soaring", "Sour", "Spitting", "Spunky", "Sweet"];
 
-var p_second_words = ["Pickle", "Popcorn", "Pad", "Pill"];
+var s_second_words = ["Salad", "Salami", "Salmon", "Sand", "Sardine", "Sasquatch", "Scab", "Sea", "Seattle", "Section", "Sequel", "Set", "Shack", "Shackle", "Shade", "Shadow", "Sign", "Silk", "Silly", "Slab", "Sledgehammer", "Snack", "Snail", "Snake", "Soap", "Sourdough", "Spa", "Space", "Spade", "Sputnik", "Squad", "Squadron", "Submarine", "Sunflower", "Sushi", "Swab"];
 
-var h_first_words = ["Healthy", "Happy", "High", "Heavenly", "Hysterical", "Hip", "Hybrid"];
+var t_first_words = ["Tackling", "Tapping", "Ticklish", "Tiny", "Touchable"];
 
-var h_second_words = ["Hip", "Hybrid", "Home", "Hill", "Helicopter", "Hippopotamus", "Hurricane"];
+var t_second_words = ["Table", "Taco", "Tadpole", "Tea", "Team", "Television", "Tide", "Tim", "Toad", "Toast", "Towel", "Trace", "Tub", "Tuba"];
