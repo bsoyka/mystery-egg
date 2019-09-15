@@ -47,3 +47,5 @@ var s_second_words = ["Salad", "Salami", "Salmon", "Sand", "Sardine", "Sasquatch
 var t_first_words = ["Tackling", "Tapping", "Ticklish", "Tiny", "Touchable"];
 
 var t_second_words = ["Table", "Taco", "Tadpole", "Tea", "Team", "Television", "Tide", "Tim", "Toad", "Toast", "Towel", "Trace", "Tub", "Tuba"];
+
+var z_second_words = ["Zebra", "Zero", "Zeus", "Zinc", "Zodiac", "Zombie", "Zone", "Zoo", "Zucchini"];
