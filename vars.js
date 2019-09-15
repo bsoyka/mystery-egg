@@ -32,6 +32,8 @@ var h_second_words = ["Helicopter", "Hill", "Hip", "Hippopotamus", "Home", "Hurr
 
 var k_first_words = ["Kaleidoscopic", "Kaput", "Keen", "Key", "Khaki", "Kicking", "Kin", "Kind", "Kindhearted", "Kingly", "Knitted", "Knowledgable", "Known"];
 
+var l_first_words = ["Lame", "Lamentable", "Large", "Late", "Laudable", "Laughable", "Laughing", "Lazy", "Leaking", "Legal", "Legendary", "Lifeless", "Lingering", "Little", "Living", "Long", "Lost", "Loud", "Luscious"];
+
 var m_first_words = ["Magenta", "Magical", "Magnetic", "Magnetic", "Magnificent", "Majestic", "Malicious", "Maniacal", "Marshmallow", "Masculine", "Masked", "Massive", "Master", "Mathematical", "Meaningful", "Meaningless", "Meaty", "Mechanical", "Meddling", "Mediterranean", "Mega", "Melancholy", "Melted", "Melting", "Meme", "Memorable", "Merry", "Metallic", "Microscopic", "Mighty", "Mild", "Milky", "Minced", "Mindless", "Mingling", "Miniature", "Minty", "Minuscule", "Miraculous", "Mischievous", "Missing", "Mixed", "Moaning", "Modern", "Moldy", "Molten", "Mongolian", "Monstrous", "Monstrous", "Montanan", "Mooing", "Moon", "Moonlit", "Mopping", "Mother", "Motionless", "Motorized", "Mount", "Moving", "Muscular", "Mushy", "Mutant", "Mutated", "My", "Mysterious", "Mystery", "Mystical", "Mythical"];
 
 var m_second_words = ["Macademia", "Macaroni", "Madness", "Magic", "Magician", "Magnet", "Makeup", "Malice", "Marshmallow", "Meadow", "Meat", "Meatball", "Miami", "Microphone", "Milk", "Milkshake", "Moat", "Mold", "Mom", "Moon", "Mop", "Mother", "Mountain", "Mystery"];
