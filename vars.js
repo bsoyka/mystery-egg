@@ -34,6 +34,8 @@ var k_first_words = ["Kaleidoscopic", "Kaput", "Keen", "Key", "Khaki", "Kicking"
 
 var l_first_words = ["Lame", "Lamentable", "Large", "Late", "Laudable", "Laughable", "Laughing", "Lazy", "Leaking", "Legal", "Legendary", "Lifeless", "Lingering", "Little", "Living", "Lonely", "Long", "Lost", "Loud", "Lousy", "Lovable", "Lovely", "Lucky", "Luscious"];
 
+var l_second_words = ["Label", "Laboratory", "Ladder", "Lamb", "Lamp", "Land", "Lanyard", "Lawn", "Leaf", "Leak", "Lease", "Leek", "Leg", "Legend", "Lemon", "Leopard", "Leprechaun", "Lesson", "Letter", "Life", "Lime", "Lion", "Lip", "List", "Litter", "Lizard", "Loan", "Lobster", "Locust", "Log", "Look", "Luggage", "Lunch", "Lyric"]
+
 var m_first_words = ["Magenta", "Magical", "Magnetic", "Magnetic", "Magnificent", "Majestic", "Malicious", "Maniacal", "Marshmallow", "Masculine", "Masked", "Massive", "Master", "Mathematical", "Meaningful", "Meaningless", "Meaty", "Mechanical", "Meddling", "Mediterranean", "Mega", "Melancholy", "Melted", "Melting", "Meme", "Memorable", "Merry", "Metallic", "Microscopic", "Mighty", "Mild", "Milky", "Minced", "Mindless", "Mingling", "Miniature", "Minty", "Minuscule", "Miraculous", "Mischievous", "Missing", "Mixed", "Moaning", "Modern", "Moldy", "Molten", "Mongolian", "Monstrous", "Monstrous", "Montanan", "Mooing", "Moon", "Moonlit", "Mopping", "Mother", "Motionless", "Motorized", "Mount", "Moving", "Muscular", "Mushy", "Mutant", "Mutated", "My", "Mysterious", "Mystery", "Mystical", "Mythical"];
 
 var m_second_words = ["Macademia", "Macaroni", "Madness", "Magic", "Magician", "Magnet", "Makeup", "Malice", "Marshmallow", "Meadow", "Meat", "Meatball", "Miami", "Microphone", "Milk", "Milkshake", "Moat", "Mold", "Mom", "Moon", "Mop", "Mother", "Mountain", "Mystery"];
