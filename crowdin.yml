@@ -1,0 +1,3 @@
+files:
+  - source: vars.js
+    translation: /translations/%two_letters_code%/%original_file_name%
