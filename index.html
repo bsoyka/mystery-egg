@@ -245,8 +245,8 @@
             function getOptionsFromCookies() {
                 var select_first = document.getElementById("first-select");
                 var select_second = document.getElementById("second-select");
-                select_first.value = getCookie("first-select");
-                select_second.value = getCookie("second-select");
+                select_first.value = getCookie("first-select") || "m_first_words";
+                select_second.value = getCookie("second-select") || "e_second_words";
                 run();
             }
             getOptionsFromCookies();
