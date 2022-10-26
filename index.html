@@ -29,7 +29,7 @@
         <h6 class="text-muted">A website to generate a meaning for the abbreviation selected below, originally for use in online storytelling.</h6>
         <br><br>
         <div class="input-group mb-1">
-            <select class="form-control" id="first-select" onchange="saveOptionAsCookie(this)">
+            <select class="form-control" id="first-select">
                 <option value="a_first_words">A</option>
                 <option value="b_first_words">B</option>
                 <option value="c_first_words">C</option>
@@ -44,7 +44,7 @@
                 <option value="s_first_words">S</option>
                 <option value="t_first_words">T</option>
             </select>
-            <select class="form-control" id="second-select"  onchange="saveOptionAsCookie(this)">
+            <select class="form-control" id="second-select">
                 <option value="a_second_words">A</option>
                 <option value="b_second_words">B</option>
                 <option value="c_second_words">C</option>
@@ -96,45 +96,6 @@
             }
         }
     </script>
-
-    <!-- Script to save options as cookies -->
-    <script>
-            function setCookie(cname, cvalue, exdays) {
-                var d = new Date();
-                d.setTime(d.getTime() + (exdays*24*60*60*1000));
-                var expires = "expires="+ d.toUTCString();
-                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-            }
-    
-            function getCookie(cname) {
-                var name = cname + "=";
-                var decodedCookie = decodeURIComponent(document.cookie);
-                var ca = decodedCookie.split(';');
-                for(var i = 0; i <ca.length; i++) {
-                    var c = ca[i];
-                    while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
-                    }
-                    if (c.indexOf(name) == 0) {
-                    return c.substring(name.length, c.length);
-                    }
-                }
-                return "";
-            }
-    
-            function saveOptionAsCookie(el) {
-                setCookie(el.id, el.value, 90);
-            }
-            
-            function getOptionsFromCookies() {
-                var select_first = document.getElementById("first-select");
-                var select_second = document.getElementById("second-select");
-                select_first.value = getCookie("first-select") || "m_first_words";
-                select_second.value = getCookie("second-select") || "e_second_words";
-                run();
-            }
-            getOptionsFromCookies();
-        </script>
 </body>
 
 </html>
