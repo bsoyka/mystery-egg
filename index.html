@@ -24,11 +24,6 @@
 </head>
 
 <body>
-    <div id="main-killed">
-        <h1>Mystery Egg</h1>
-        <h6 class="text-muted">A website to generate a meaning for the abbreviation selected below, originally for use in online storytelling.</h6>
-        <h2>This feature has been temporarily disabled.</h2>
-    </div>
     <div id="main">
         <h1 id="result">Mystery Egg</h1>
         <h6 class="text-muted">A website to generate a meaning for the abbreviation selected below, originally for use in online storytelling.</h6>
@@ -100,34 +95,6 @@
                 run();
             }
         }
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/configcat-js@latest/dist/configcat.min.js"></script>
-    <script type="text/javascript">
-        var configCatClient = configcat.createClientWithAutoPoll('hj3XCIQh6eEZlMTDVcgoWA/u8vNRgE0YU-2Za8D347Z-A', {
-            pollIntervalSeconds: 2,
-            configChanged: function() {
-                configCatClient.getValue("generationEnabled", true, function(value) {
-                    if (value == false) {
-                        document.getElementById("main").style = "display: none;";
-                        document.getElementById("main-killed").style = "display: block;";
-                    } else {
-                        document.getElementById("main").style = "display: block;";
-                        document.getElementById("main-killed").style = "display: none;";
-                    }
-                });
-            }
-        });
-        configCatClient.getValue("generationEnabled", true, function(value) {
-            if (value == false) {
-                document.getElementById("main").style = "display: none;";
-                document.getElementById("main-killed").style = "display: block;";
-            } else {
-                document.getElementById("main").style = "display: block;";
-                document.getElementById("main-killed").style = "display: none;";
-            }
-        });
     </script>
 </body>
 
